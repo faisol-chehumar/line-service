@@ -2,10 +2,10 @@
   "name": "line-service",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "api/index.js",
   "scripts": {
-    "dev": "nodemon src/app.ts",
-    "dev:debug": "nodemon --inspect src/app.ts",
+    "dev:api": "nodemon api/index.ts",
+    "dev:api:debug": "nodemon --inspect api/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
